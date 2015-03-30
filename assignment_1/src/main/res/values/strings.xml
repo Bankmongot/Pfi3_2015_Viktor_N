@@ -3,4 +3,15 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array
+        name="quotes_array">
+        <item>When you fall, I will be there to catch you. With love... the floor.</item>
+        <item>Doing nothing is hard... you never know when you are done. </item>
+        <item>I am not lazy... I am just very relaxed. </item>
+        <item>I am on a seafood diet. I see food... and I eat it.</item>
+        <item>There are no stupid questions... just stupid people.</item>
+    </string-array>
+
+        <string name="title_activity_display_message">My message</string>
 </resources>
+
