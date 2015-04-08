@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment_1</string>
+
+    <string-array
+        name="quotes_array">
+        <item>När du faller, så kommer jag fånga dig. Bästa hälsningar...golvet.</item>
+        <item>Att göra ingenting är svårt...du vet aldrig när du är färdig. </item>
+        <item>Jag är inte lat...jag är bara väldigt avslappnad. </item>
+        <item>Jag är på en seafood diet...jag ser food, jag äter den.</item>
+        <item>Det finns inga korkade frågor...bara korkade människor.</item>
+    </string-array>
+
+</resources>
