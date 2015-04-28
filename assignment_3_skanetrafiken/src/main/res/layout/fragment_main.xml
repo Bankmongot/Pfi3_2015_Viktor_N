@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="v.assignment_3_skanetrafiken.view.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:background="#ffe7e7e7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Från:"
+            android:id="@+id/tvFrom"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:textSize="45dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinTill"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:spinnerMode="dropdown"
+
+            android:entries="@array/stations" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="90dp"
+        android:background="#ffffff"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Till:"
+            android:id="@+id/tvTo"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="24dp"
+            android:textSize="45dp"
+            android:layout_marginRight="30dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spinFran"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:entries="@array/stations"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFF"
+        android:groupIndicator="@null" />
+</RelativeLayout>
